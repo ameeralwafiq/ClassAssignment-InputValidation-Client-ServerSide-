@@ -5,5 +5,5 @@ This is the client-side input validation that consist of HTML codes. The user wi
 Thie is the server-side input validation file that consist of PHP codes. This is where the request coming from the client-side will be sent and processed. It processes the request and will sending back the HTML code to the client-side to be rendered by them. In this file also have implemented Regexes and whitelists that will not allow any cross-site scripting codes to be processed. Furthermore, the codes wil be checked and if there is any Javascript codes, it will tell the client that the input they send are invalid.
 ## css/error.css
 This is where the CSS for the client-side file will be stored. 
-##js/validation.js
+## js/validation.js
 This is where the Javascript code for the client-side file will be stored. The objective of this Javascript code is to validate if the user enters the correct input and will remind them if their input is not suitable.
